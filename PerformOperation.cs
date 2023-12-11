@@ -68,7 +68,7 @@ class PerformOperation
                     break;
             }
            
-
+            // return the result and do not continue the rest of the method
             return totalTesult;
 
          }
@@ -90,13 +90,15 @@ class PerformOperation
                     break;
             }
            
-
+            // return the result and do not continue the rest of the method
+            
             return totalTesult;
 
 
         }
 
-
+        //in case of both operations do not contain multiplication just add or sub the numbers
+        // by add the first two numbers and save the result in a variable and then add to the third number
 
         switch (firstOperation)
         {
